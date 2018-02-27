@@ -61,7 +61,9 @@ nav .navbar-collapse ul li .basket p:nth-child(2) { font-family: 'roboto', Arial
 nav .navbar-collapse ul li .basket p:nth-child(3) { font-family: 'roboto', Arial; font-weight: normal; font-size: 13px; }
 
 .content .range { border: 1px solid #e8e8e8; border-radius: 3px; color: #2a2a2a; }
-.content .range h3 { font-family: 'roboto', Arial; font-weight: normal; margin-left: 20px; }
+.content .range .span { display: inline-block; margin: 0 20px; }
+.content .range .span span { width: 30px; height: 3px; background: #4eac01; display: block; margin-top: 7px; }
+.content .range h3 { font-family: 'roboto', Arial; font-weight: normal; margin: 20px 0; display: inline-block; }
 .content .range ul li { border-bottom: 1px solid #e8e8e8; height: 50px; margin-left: 20px; margin-right: 20px; /*background: url(../img/arrow.png) no-repeat;*/ /*background-position: right;*/ }
 .content .range ul li:hover { background: rgba(220, 220, 220, 0.18); }
 .content .range ul li a { color: #2a2a2a; font-family: 'roboto', Arial; font-weight: normal; padding: 10px 0 10px 0; display: block; background: url(../img/arrow.png) no-repeat; background-position: right; }
@@ -69,13 +71,16 @@ nav .navbar-collapse ul li .basket p:nth-child(3) { font-family: 'roboto', Arial
 .content .range ul li a img { padding-right: 8px; height: 100%; padding-bottom: 10px; }
 .content .range ul li a span { font-size: 16px; }
 .content .col-md-8 { padding-left: 0; }
+.content .col-md-8 ul { display: inline-block; }
 .content .col-md-8 ul li { display: inline; }
 .content .col-md-8 ul li a { color: #2a2a2a; font-family: 'roboto', Arial; font-weight: 200; font-size: 13px; }
+.content .col-md-8 ul .active a { font-weight: 600; }
+.content .col-md-8 .code-item { display: inline-block; float: right; padding: 10px 20px; background: #c3ea21; border-radius: 3px; }
 .content .col-md-8 .sorting { height: 31px; background: #f7f7f9; border-radius: 3px; }
 .content .col-md-8 .sorting ul { padding-left: 20px; padding-top: 7px; box-sizing: border-box; }
 .content .col-md-8 .sorting ul li { padding: 0 2.5px; }
 .content .col-md-8 .sorting ul li a img { padding-left: 2px; }
-.content .col-md-8 .bread-crumbs { padding-top: 22px; padding-left: 23px; padding-bottom: 16px; }
+.content .col-md-8 .bread-crumbs { padding-top: 10px; padding-left: 23px; padding-bottom: 16px; }
 .content .col-md-8 .bread-crumbs ul li span { padding: 0 6px; }
 .content .col-md-8 .recommend ul li a { font-weight: 500; font-size: 16px; padding: 10px 24px; }
 .content .col-md-8 .recommend ul li a:hover { text-decoration: none; background: #f7f7f9; border-radius: 3px; }
@@ -123,3 +128,42 @@ nav .navbar-collapse ul li .basket p:nth-child(3) { font-family: 'roboto', Arial
 .last-block .information .contacts ul li:nth-child(2) { font-size: 14px; }
 
 footer { font-size: 12px; font-weight: 500; margin: 20px 0; }
+
+.item .col-md-12 h2 { font-weight: 600; color: #3e8602; display: inline-block; margin-top: 0; float: left; }
+.item .col-md-12 .availability { display: inline-block; float: left; padding-top: 10px; padding-left: 55px; }
+.item .col-md-12 .availability span { background: url(../img/availability.png) no-repeat; width: 20px; height: 20px; display: inline-block; float: left; }
+.item .col-md-12 .availability p { display: inline-block; float: left; padding-left: 6px; }
+.item .col-md-12 ul { display: inline-block; float: right; }
+.item .col-md-12 ul li { display: inline-block; }
+.item .col-md-12 ul li:nth-of-type(1) { width: 100px; }
+.item .col-md-12 ul li:nth-of-type(1) span { background: url(../img/img-li-1.png) no-repeat; }
+.item .col-md-12 ul li:nth-of-type(1) span:hover { background: url(../img/img-li-hover-1.png) no-repeat; }
+.item .col-md-12 ul li:nth-of-type(2) { width: 100px; }
+.item .col-md-12 ul li:nth-of-type(2) span { background: url(../img/img-li-2.png) no-repeat; }
+.item .col-md-12 ul li:nth-of-type(2) span:hover { background: url(../img/img-li-hover-2.png) no-repeat; }
+.item .col-md-12 ul li:nth-of-type(3) span { background: url(../img/img-li-3.png) no-repeat; }
+.item .col-md-12 ul li:nth-of-type(3) span:hover { background: url(../img/img-li-hover-3.png) no-repeat; }
+.item .col-md-12 ul li span { width: 27px; height: 28px; display: block; margin: 0 auto; transition: 0.3s; }
+.item .col-md-12 ul li p { text-align: center; }
+.item .col-md-8 ul { margin-top: 10px; }
+.item .slick-slide img { margin: 0 auto; }
+.item .slick-slide .slick-current { border: 1px solid #ddd; border-radius: 3px; }
+.item .slider-nav .slick-slide img { height: 83px; }
+.item .hit { position: relative; }
+.item .hit:before { position: absolute; content: " "; background: url(../img/hit.png) no-repeat; width: 50px; height: 50px; top: 0; left: 20px; }
+.item .hit .slider-for { border: 1px solid #ddd; border-radius: 3px; }
+.item .hit .slider-nav { margin-top: 20px; border: 1px solid #ddd; border-radius: 3px; }
+.item .col-md-8 .desc-price { display: inline-block; }
+.item .col-md-8 .desc-price .price p { font-size: 30px; }
+.item .col-md-8 .desc-price .price p span { font-weight: 500; }
+.item .col-md-8 .desc-price .rating-box { height: 20px; width: 100px; background: url(../img/grey-stars-item.png); display: inline-block; background-repeat: no-repeat; }
+.item .col-md-8 .desc-price .rating-box .stars { background: url(../img/gold-stars-item.png); height: 20px; width: 100px; background-repeat: no-repeat; }
+.item .col-md-8 .desc-price .basket { width: 203px; height: 54px; display: block; background-color: #4eac01; border: none; border-radius: 3px; color: #fff; font-size: 22px; font-weight: 400; letter-spacing: 1px; margin-top: 20px; }
+.item .col-md-8 .desc-price a p { border-bottom: 1px solid #000; width: 125px; margin-top: 20px; color: #000; font-size: 16px; }
+.item .col-md-8 .social-icons { display: inline-block; float: right; max-width: 300px; }
+.item .col-md-8 .social-icons p { font-size: 16px; }
+.item .col-md-8 .social-icons ul { float: right; }
+.item .col-md-8 .social-icons ul li { padding: 0 25px; }
+.item .col-md-8 .desc-text h3 { font-size: 18px; font-weight: 700; }
+.item .col-md-8 .desc-text p { text-align: justify; text-indent: 20px; }
+.item .col-md-8 .desc-text a { font-size: 20px; color: #000; text-decoration: underline; }
