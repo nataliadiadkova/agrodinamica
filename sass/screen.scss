@@ -925,3 +925,362 @@ footer
 		}
 	}
 }
+
+.basket {
+	width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 1000px;
+	padding-top: 84px;
+
+	.contain {
+		margin: 0 auto;
+		width: 772px;
+		height: 630px;
+		background-color: #fff;
+		border-radius: 10px;
+
+		.top {
+			display: block;
+			height: 70px;
+			
+			h1 {
+				display: inline-block;
+				float: left;
+				margin-left: 63px;
+				font-family: 'roboto';
+				font-weight: bold;
+				color: #5a5a5a;
+			}
+	
+			.closes {
+				display: inline-block;
+				margin-top: 23px;
+				float: right;
+				margin-right: 20px;
+			}
+		}
+
+		.production {
+			padding-left: 50px;
+			padding-right: 50px;
+
+			ul {
+				height: 28px;
+				background-color: #f4f4f4;
+			
+				li {
+					display: inline-block;
+					float: left;
+					margin-left: 15px;
+					margin-top: 5px;
+
+					&:nth-of-type(1) {
+						width: 450px;
+					}
+
+					&:nth-of-type(2) {
+						width: 130px;
+					}
+				}
+			}
+		}
+
+		.item {
+			margin: 0 50px;
+			height: 140px;
+			border-bottom: 2px solid #e3e3e3;
+			margin-top: 20px;
+			.img {
+				display: inline-block;
+				width: 92px;
+				float: left;
+
+				img {
+					height: 100%;
+					margin: 0 auto;
+					width: auto;
+				}
+			}
+
+			.title {
+
+				h4 {
+					margin-top: 13px;
+					font-family: 'roboto';
+					font-size: 20px;
+					color: #3e8602;
+				}
+			}
+
+			.desc {
+				display: inline-block;
+				float: left;
+				max-width: 350px;
+
+				.wholesale {
+					p {
+						opacity: 0.5;
+					}
+				}
+
+				.retail, .wholesale {
+					.container {
+						display: inline-block;
+						position: relative;
+						margin-bottom: 15px;
+						cursor: pointer;
+						font-size: 22px;
+						width: auto;
+						-webkit-user-select: none;
+						-moz-user-select: none;
+						-ms-user-select: none;
+						user-select: none;
+						padding-right: 5px;
+					}
+					
+					/* Hide the browser's default radio button */
+					.container input {
+						position: absolute;
+						opacity: 0;
+						cursor: pointer;
+					}
+					
+					/* Create a custom radio button */
+					.checkmark {
+						position: absolute;
+						top: 0;
+						left: 0;
+						height: 15px;
+						width: 15px;
+						background-color: #fff;
+						border-radius: 50%;
+						border: 1px solid #dcdcdc;
+					}
+					
+					/* On mouse-over, add a grey background color */
+					.container:hover input ~ .checkmark {
+						background-color: #ccc;
+					}
+					
+					/* When the radio button is checked, add a blue background */
+					.container input:checked ~ .checkmark {
+						background-color: #fff;
+					}
+					
+					/* Create the indicator (the dot/circle - hidden when not checked) */
+					.checkmark:after {
+						content: "";
+						position: absolute;
+						display: none;
+					}
+					
+					/* Show the indicator (dot/circle) when checked */
+					.container input:checked ~ .checkmark:after {
+						display: block;
+					}
+					
+					/* Style the indicator (dot/circle) */
+					.container .checkmark:after {
+						top: 1px;
+						left: 1px;
+						width: 11px;
+						height: 11px;
+						border-radius: 50%;
+						background: #4eac01;
+					}
+
+					form {
+						display: inline-block;
+					}
+
+					p {
+						display: inline-block;
+						font-family: 'Arial';
+    					font-size: 20px;
+					}
+				}
+			}
+
+			.count {
+				display: inline-block;
+				float: left;
+				padding-left: 60px;
+				margin-top: 35px;
+
+				.retail, .wholesale {
+					display: block;
+					height: 50px;
+				}
+
+				.wholesale {
+					opacity: 0.5;
+				}
+
+				input {
+					width: 33px;
+					height: 33px;
+					border-radius: 4px;
+					padding: 5px;
+					border: 1px solid #aeaeae;
+				}
+
+				.minus {
+					display: inline-block;
+					float: left;
+					margin-top: 5px;
+				}
+
+				form {
+					display: inline-block;
+					float: left;
+					margin: 0 9px;
+				}
+
+				.plus {
+					display: inline-block;
+					float: left;
+					margin-top: 5px;
+				}
+			}
+			
+			.price {
+				display: inline-block;
+				float: left;
+				width: 127px;
+
+				.closes {
+					display: block;
+					height: 40px;
+					
+					img {
+						float: right;
+					}
+				}
+
+				p {
+					font-family: 'arial';
+					font-size: 20px;
+					padding-left: 40px;
+				}
+
+				.wholesale {
+					opacity: 0.5;
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.discount {
+			padding: 0 50px;
+			height: 120px;
+
+			.img {
+				display: inline-block;
+				margin-right: 10px;
+				float: left;
+				margin-top: 40px;
+			}
+
+			.desc {
+				display: inline-block;
+				max-width: 362px;
+				font-family: 'Arial';
+				font-size: 16px;
+				margin-bottom: 8px;
+				float: left;
+				margin-top: 25px;
+
+				span {
+					text-transform: uppercase;
+					font-size: 18px;
+				}
+
+				input {
+					font-family: 'Arial';
+					width: 100%;
+					height: 26px;
+					border-radius: 3px;
+					border: 1px solid #ddd;
+					font-size: 14px;
+					font-style: italic;
+					padding-left: 10px;
+				}
+			}
+
+			.value {
+				display: inline-block;
+				float: left;
+				font-family: 'Arial';
+				font-size: 18px;
+				margin-top: 30px;
+				width: 216px;
+
+				p {
+					margin-bottom: 3px;
+					text-align: right;
+
+					&:nth-of-type(2) {
+						span {
+							color: #4a940d;
+							font-weight: bold;
+							margin-left: 24px;
+
+							&:nth-of-type(2) {
+								margin-left: 0;
+							}
+						}
+					}
+
+					&:nth-of-type(3) {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+
+		.battons {
+			padding: 0 50px;
+			margin-top: 18px;
+
+			.add-more {
+				display: inline-block;
+				float: left;
+			}
+
+			.add-more, .buy {
+				text-align: center;
+
+				a {
+					width: 182px;
+					float: left;
+					height: 52px;
+					line-height: normal;
+					display: block;
+					color: #000;
+					font-family: 'Arial';
+					font-size: 20px;
+					border: 1px solid;
+					border-radius: 3px;
+					padding-top: 12px;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+
+			.buy {
+				display: inline-block;
+				float: right;
+
+				a {
+					color: #fff;
+					background-color: #4eac01;
+					border: 1px solid #4eac01;
+				}
+			}
+		}
+	}
+}
