@@ -168,59 +168,59 @@ footer { font-size: 12px; font-weight: 500; margin: 20px 0; }
 .item .col-md-8 .desc-text p { text-align: justify; text-indent: 20px; }
 .item .col-md-8 .desc-text a { font-size: 20px; color: #000; text-decoration: underline; }
 
-.basket { width: 100%; height: 100%; min-width: 1000px; background: rgba(0, 0, 0, 0.4); min-height: 1000px; padding-top: 84px; }
-.basket .contain { margin: 0 auto; width: 772px; height: 630px; background-color: #fff; border-radius: 10px; }
-.basket .contain .top { display: block; height: 70px; }
-.basket .contain .top h1 { display: inline-block; float: left; margin-left: 63px; font-family: 'roboto'; font-weight: bold; color: #5a5a5a; }
-.basket .contain .top .closes { display: inline-block; margin-top: 23px; float: right; margin-right: 20px; }
-.basket .contain .production { padding-left: 50px; padding-right: 50px; }
-.basket .contain .production ul { height: 28px; background-color: #f4f4f4; }
-.basket .contain .production ul li { display: inline-block; float: left; margin-left: 15px; margin-top: 5px; }
-.basket .contain .production ul li:nth-of-type(1) { width: 450px; }
-.basket .contain .production ul li:nth-of-type(2) { width: 130px; }
-.basket .contain .item { margin: 0 50px; height: 140px; border-bottom: 2px solid #e3e3e3; margin-top: 20px; }
-.basket .contain .item .img { display: inline-block; width: 92px; float: left; }
-.basket .contain .item .img img { height: 100%; margin: 0 auto; width: auto; }
-.basket .contain .item .title h4 { margin-top: 13px; font-family: 'roboto'; font-size: 20px; color: #3e8602; }
-.basket .contain .item .desc { display: inline-block; float: left; max-width: 350px; }
-.basket .contain .item .desc .wholesale p { opacity: 0.5; }
-.basket .contain .item .desc .retail, .basket .contain .item .desc .wholesale { /* Hide the browser's default radio button */ /* Create a custom radio button */ /* On mouse-over, add a grey background color */ /* When the radio button is checked, add a blue background */ /* Create the indicator (the dot/circle - hidden when not checked) */ /* Show the indicator (dot/circle) when checked */ /* Style the indicator (dot/circle) */ }
-.basket .contain .item .desc .retail .container, .basket .contain .item .desc .wholesale .container { display: inline-block; position: relative; margin-bottom: 15px; cursor: pointer; font-size: 22px; width: auto; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding-right: 5px; }
-.basket .contain .item .desc .retail .container input, .basket .contain .item .desc .wholesale .container input { position: absolute; opacity: 0; cursor: pointer; }
-.basket .contain .item .desc .retail .checkmark, .basket .contain .item .desc .wholesale .checkmark { position: absolute; top: 0; left: 0; height: 15px; width: 15px; background-color: #fff; border-radius: 50%; border: 1px solid #dcdcdc; }
-.basket .contain .item .desc .retail .container:hover input ~ .checkmark, .basket .contain .item .desc .wholesale .container:hover input ~ .checkmark { background-color: #ccc; }
-.basket .contain .item .desc .retail .container input:checked ~ .checkmark, .basket .contain .item .desc .wholesale .container input:checked ~ .checkmark { background-color: #fff; }
-.basket .contain .item .desc .retail .checkmark:after, .basket .contain .item .desc .wholesale .checkmark:after { content: ""; position: absolute; display: none; }
-.basket .contain .item .desc .retail .container input:checked ~ .checkmark:after, .basket .contain .item .desc .wholesale .container input:checked ~ .checkmark:after { display: block; }
-.basket .contain .item .desc .retail .container .checkmark:after, .basket .contain .item .desc .wholesale .container .checkmark:after { top: 1px; left: 1px; width: 11px; height: 11px; border-radius: 50%; background: #4eac01; }
-.basket .contain .item .desc .retail form, .basket .contain .item .desc .wholesale form { display: inline-block; }
-.basket .contain .item .desc .retail p, .basket .contain .item .desc .wholesale p { display: inline-block; font-family: 'Arial'; font-size: 20px; }
-.basket .contain .item .count { display: inline-block; float: left; padding-left: 60px; margin-top: 35px; }
-.basket .contain .item .count .retail, .basket .contain .item .count .wholesale { display: block; height: 50px; }
-.basket .contain .item .count .wholesale { opacity: 0.5; }
-.basket .contain .item .count input { width: 33px; height: 33px; border-radius: 4px; padding: 5px; border: 1px solid #aeaeae; }
-.basket .contain .item .count .minus { display: inline-block; float: left; margin-top: 5px; }
-.basket .contain .item .count form { display: inline-block; float: left; margin: 0 9px; }
-.basket .contain .item .count .plus { display: inline-block; float: left; margin-top: 5px; }
-.basket .contain .item .price { display: inline-block; float: left; width: 127px; }
-.basket .contain .item .price .closes { display: block; height: 40px; }
-.basket .contain .item .price .closes img { float: right; }
-.basket .contain .item .price p { font-family: 'arial'; font-size: 20px; padding-left: 40px; }
-.basket .contain .item .price .wholesale { opacity: 0.5; margin-top: 20px; }
-.basket .contain .discount { padding: 0 50px; height: 120px; }
-.basket .contain .discount .img { display: inline-block; margin-right: 10px; float: left; margin-top: 40px; }
-.basket .contain .discount .desc { display: inline-block; max-width: 362px; font-family: 'Arial'; font-size: 16px; margin-bottom: 8px; float: left; margin-top: 25px; }
-.basket .contain .discount .desc span { text-transform: uppercase; font-size: 18px; }
-.basket .contain .discount .desc input { font-family: 'Arial'; width: 100%; height: 26px; border-radius: 3px; border: 1px solid #ddd; font-size: 14px; font-style: italic; padding-left: 10px; }
-.basket .contain .discount .value { display: inline-block; float: left; font-family: 'Arial'; font-size: 18px; margin-top: 30px; width: 216px; }
-.basket .contain .discount .value p { margin-bottom: 3px; text-align: right; }
-.basket .contain .discount .value p:nth-of-type(2) span { color: #4a940d; font-weight: bold; margin-left: 24px; }
-.basket .contain .discount .value p:nth-of-type(2) span:nth-of-type(2) { margin-left: 0; }
-.basket .contain .discount .value p:nth-of-type(3) { font-weight: bold; }
-.basket .contain .battons { padding: 0 50px; margin-top: 18px; }
-.basket .contain .battons .add-more { display: inline-block; float: left; }
-.basket .contain .battons .add-more, .basket .contain .battons .buy { text-align: center; }
-.basket .contain .battons .add-more a, .basket .contain .battons .buy a { width: 182px; float: left; height: 52px; line-height: normal; display: block; color: #000; font-family: 'Arial'; font-size: 20px; border: 1px solid; border-radius: 3px; padding-top: 12px; }
-.basket .contain .battons .add-more a:hover, .basket .contain .battons .buy a:hover { text-decoration: none; }
-.basket .contain .battons .buy { display: inline-block; float: right; }
-.basket .contain .battons .buy a { color: #fff; background-color: #4eac01; border: 1px solid #4eac01; }
+.basket-page { width: 100%; height: 100%; min-width: 1000px; background: rgba(0, 0, 0, 0.4); min-height: 1000px; padding-top: 84px; }
+.basket-page .contain { margin: 0 auto; width: 772px; height: 630px; background-color: #fff; border-radius: 10px; }
+.basket-page .contain .top { display: block; height: 70px; }
+.basket-page .contain .top h1 { display: inline-block; float: left; margin-left: 63px; font-family: 'roboto'; font-weight: bold; color: #5a5a5a; }
+.basket-page .contain .top .closes { display: inline-block; margin-top: 23px; float: right; margin-right: 20px; }
+.basket-page .contain .production { padding-left: 50px; padding-right: 50px; }
+.basket-page .contain .production ul { height: 28px; background-color: #f4f4f4; }
+.basket-page .contain .production ul li { display: inline-block; float: left; margin-left: 15px; margin-top: 5px; }
+.basket-page .contain .production ul li:nth-of-type(1) { width: 450px; }
+.basket-page .contain .production ul li:nth-of-type(2) { width: 130px; }
+.basket-page .contain .item { margin: 0 50px; height: 140px; border-bottom: 2px solid #e3e3e3; margin-top: 20px; }
+.basket-page .contain .item .img { display: inline-block; width: 92px; float: left; }
+.basket-page .contain .item .img img { height: 100%; margin: 0 auto; width: auto; }
+.basket-page .contain .item .title h4 { margin-top: 13px; font-family: 'roboto'; font-size: 20px; color: #3e8602; }
+.basket-page .contain .item .desc { display: inline-block; float: left; max-width: 350px; }
+.basket-page .contain .item .desc .wholesale p { opacity: 0.5; }
+.basket-page .contain .item .desc .retail, .basket-page .contain .item .desc .wholesale { /* Hide the browser's default radio button */ /* Create a custom radio button */ /* On mouse-over, add a grey background color */ /* When the radio button is checked, add a blue background */ /* Create the indicator (the dot/circle - hidden when not checked) */ /* Show the indicator (dot/circle) when checked */ /* Style the indicator (dot/circle) */ }
+.basket-page .contain .item .desc .retail .container, .basket-page .contain .item .desc .wholesale .container { display: inline-block; position: relative; margin-bottom: 15px; cursor: pointer; font-size: 22px; width: auto; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding-right: 5px; }
+.basket-page .contain .item .desc .retail .container input, .basket-page .contain .item .desc .wholesale .container input { position: absolute; opacity: 0; cursor: pointer; }
+.basket-page .contain .item .desc .retail .checkmark, .basket-page .contain .item .desc .wholesale .checkmark { position: absolute; top: 0; left: 0; height: 15px; width: 15px; background-color: #fff; border-radius: 50%; border: 1px solid #dcdcdc; }
+.basket-page .contain .item .desc .retail .container:hover input ~ .checkmark, .basket-page .contain .item .desc .wholesale .container:hover input ~ .checkmark { background-color: #ccc; }
+.basket-page .contain .item .desc .retail .container input:checked ~ .checkmark, .basket-page .contain .item .desc .wholesale .container input:checked ~ .checkmark { background-color: #fff; }
+.basket-page .contain .item .desc .retail .checkmark:after, .basket-page .contain .item .desc .wholesale .checkmark:after { content: ""; position: absolute; display: none; }
+.basket-page .contain .item .desc .retail .container input:checked ~ .checkmark:after, .basket-page .contain .item .desc .wholesale .container input:checked ~ .checkmark:after { display: block; }
+.basket-page .contain .item .desc .retail .container .checkmark:after, .basket-page .contain .item .desc .wholesale .container .checkmark:after { top: 1px; left: 1px; width: 11px; height: 11px; border-radius: 50%; background: #4eac01; }
+.basket-page .contain .item .desc .retail form, .basket-page .contain .item .desc .wholesale form { display: inline-block; }
+.basket-page .contain .item .desc .retail p, .basket-page .contain .item .desc .wholesale p { display: inline-block; font-family: 'Arial'; font-size: 20px; }
+.basket-page .contain .item .count { display: inline-block; float: left; padding-left: 60px; margin-top: 35px; }
+.basket-page .contain .item .count .retail, .basket-page .contain .item .count .wholesale { display: block; height: 50px; }
+.basket-page .contain .item .count .wholesale { opacity: 0.5; }
+.basket-page .contain .item .count input { width: 33px; height: 33px; border-radius: 4px; padding: 5px; border: 1px solid #aeaeae; }
+.basket-page .contain .item .count .minus { display: inline-block; float: left; margin-top: 5px; }
+.basket-page .contain .item .count form { display: inline-block; float: left; margin: 0 9px; }
+.basket-page .contain .item .count .plus { display: inline-block; float: left; margin-top: 5px; }
+.basket-page .contain .item .price { display: inline-block; float: left; width: 127px; }
+.basket-page .contain .item .price .closes { display: block; height: 40px; }
+.basket-page .contain .item .price .closes img { float: right; }
+.basket-page .contain .item .price p { font-family: 'arial'; font-size: 20px; padding-left: 40px; }
+.basket-page .contain .item .price .wholesale { opacity: 0.5; margin-top: 20px; }
+.basket-page .contain .discount { padding: 0 50px; height: 120px; }
+.basket-page .contain .discount .img { display: inline-block; margin-right: 10px; float: left; margin-top: 40px; }
+.basket-page .contain .discount .desc { display: inline-block; max-width: 362px; font-family: 'Arial'; font-size: 16px; margin-bottom: 8px; float: left; margin-top: 25px; }
+.basket-page .contain .discount .desc span { text-transform: uppercase; font-size: 18px; }
+.basket-page .contain .discount .desc input { font-family: 'Arial'; width: 100%; height: 26px; border-radius: 3px; border: 1px solid #ddd; font-size: 14px; font-style: italic; padding-left: 10px; }
+.basket-page .contain .discount .value { display: inline-block; float: left; font-family: 'Arial'; font-size: 18px; margin-top: 30px; width: 216px; }
+.basket-page .contain .discount .value p { margin-bottom: 3px; text-align: right; }
+.basket-page .contain .discount .value p:nth-of-type(2) span { color: #4a940d; font-weight: bold; margin-left: 24px; }
+.basket-page .contain .discount .value p:nth-of-type(2) span:nth-of-type(2) { margin-left: 0; }
+.basket-page .contain .discount .value p:nth-of-type(3) { font-weight: bold; }
+.basket-page .contain .battons { padding: 0 50px; margin-top: 18px; }
+.basket-page .contain .battons .add-more { display: inline-block; float: left; }
+.basket-page .contain .battons .add-more, .basket-page .contain .battons .buy { text-align: center; }
+.basket-page .contain .battons .add-more a, .basket-page .contain .battons .buy a { width: 182px; float: left; height: 52px; line-height: normal; display: block; color: #000; font-family: 'Arial'; font-size: 20px; border: 1px solid; border-radius: 3px; padding-top: 12px; }
+.basket-page .contain .battons .add-more a:hover, .basket-page .contain .battons .buy a:hover { text-decoration: none; }
+.basket-page .contain .battons .buy { display: inline-block; float: right; }
+.basket-page .contain .battons .buy a { color: #fff; background-color: #4eac01; border: 1px solid #4eac01; }
