@@ -150,7 +150,7 @@ footer { font-size: 12px; font-weight: 500; margin: 20px 0; }
 .item .slick-slide .slick-current { border: 1px solid #ddd; border-radius: 3px; }
 .item .slider-nav .slick-slide img { height: 83px; }
 .item .hit { position: relative; }
-.item .hit:before { position: absolute; content: " "; background: url(../img/hit.png) no-repeat; width: 50px; height: 50px; top: 0; left: 20px; }
+.item .hit:before { position: absolute; content: " "; background: url(../img/hit.png) no-repeat; width: 50px; height: 50px; top: 5px; left: 20px; }
 .item .hit .slider-for { border: 1px solid #ddd; border-radius: 3px; }
 .item .hit .slider-nav { margin-top: 20px; border: 1px solid #ddd; border-radius: 3px; }
 .item .col-md-8 .desc-price { display: inline-block; }
